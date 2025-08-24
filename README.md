@@ -86,7 +86,7 @@ erDiagram
         string name
     }
 
-    CARTS {
+    CART {
         int id PK
         int user_id FK "nullable for guest"
         int coupon_id FK
